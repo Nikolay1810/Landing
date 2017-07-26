@@ -1,0 +1,547 @@
+.clearfix:after {
+    content: " ";
+    /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.wrapper {
+    width: 100%;
+}
+body {
+/*    margin: 0;*/
+    padding: 0;
+}
+.inner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+}
+.header {
+    width: 100%;
+    background: url(../image/h1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.border-row {
+    width: 100%;
+    border-bottom: 2px solid #4E4F4F;
+}
+.borde-row ul {
+    margin: 0;
+    padding: 0;
+}
+.border-row ul li {
+    color: white;
+    line-height: 85px;
+    display: inline-block;
+    padding: 0 2% 0 2%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.logo {
+    display: block;
+    float: left;
+}
+.menu {
+   width: 53%;
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  float: left;
+  margin-left: 14%;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.active {
+    display: block;
+    line-height: 85px;
+}
+.menu a {
+    display: block;
+    line-height: 85px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: -1px;
+}
+.seti {
+    width: 172px;
+    float: right;
+    line-height: 85px;
+    margin-right: 8%;
+}
+.seti a {
+    display: inline-block;
+    width: 40px;
+}
+.menu a:hover {
+    color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+}
+.text {
+    color: white;
+    font-size: 67px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.h2 {
+    color: #11749e;
+    text-align: center;
+    letter-spacing: 17px;
+    margin: 0;
+}
+.pd {
+    padding-top: 15%;
+    padding-bottom: 4%;
+    box-sizing: border-box;
+}
+.scroll {
+    text-align: center;
+    color: white;
+}
+.circle {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 auto;
+    color: white;
+    line-height: 73px;
+    font-size: 25px;
+}
+.section1 {
+    width: 100%;
+    background-color: #11749e;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    display: none;
+}
+.W {
+    height: 180px;
+    text-align: center;
+    margin: 0;
+    background: url(../image/W.png);
+    background-color: #11749e;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 180px;
+}
+.sm_s {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #2e85aa;
+    float: left;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 70px;
+}
+.c1 {
+    background-image: url(../image/penc.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.c2 {
+    background-image: url(../image/penc.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.c3 {
+    text-align: center;
+    line-height: 130px;
+    color: white;
+    font-size: 40px;
+}
+.c4 {
+    text-align: center;
+    line-height: 130px;
+    color: white;
+    font-size: 40px;
+}
+.s_p {
+    width: 225px;
+    float: left;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.s_p p {
+    text-align: center;
+}
+.section2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.section2 div {
+    width: 50%;
+    float: left;
+    height: 450px;
+    box-sizing: border-box;
+}
+.bl1 {
+    background-color: #222222;
+    text-align: left;
+    color: white;
+    padding-left: 9%;
+    padding-right: 4%;
+    padding-top: 4%;
+}
+.bl2 {
+    background: url(../image/im1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.bl3 {
+    background: url(../image/im2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.bl4 {
+    background-color: #f3f3f3;
+    text-align: left;
+    color: black;
+    padding-left: 7%;
+    padding-right: 11%;
+    padding-top: 5%;
+    box-sizing: border-box;
+}
+.section3 {
+    width: 100%;
+    background-color: white;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+.B {
+    height: 180px;
+    background: url(../image/B.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 180px;
+    font-size: 40px;
+}
+.sect_p {
+    font-size: 20px;
+    line-height: 100px;
+    margin: 0;
+}
+.block {
+      width: 23%;
+  float: left;
+  box-sizing: border-box;
+  margin-left: 1%;
+  margin-right: 1%;
+  box-sizing: border-box;
+}
+.block p {
+    color: #11749e;
+}
+.block span {
+    font-size: 9pt;
+}
+.section4 {
+    width: 100%;
+    background-color: #11749e;
+}
+.sc4block {
+    width: 50%;
+    float: left;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+}
+.sc4block img {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sc4block p {
+    margin: 0;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.section5 {
+    width: 100%;
+    height: 850px;
+    background: url(../image/sc5.1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+}
+
+.sc5block {
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 35px;
+    color: white;
+    padding-right: 30px;
+    box-sizing: border-box;
+    float: left;
+}
+.pdblock1 {
+    padding-top: 170px;
+    box-sizing: border-box;
+}
+.pdblock2 {
+    box-sizing: border-box;
+    padding-left: 11%;
+}
+.zagol {
+    font-size: 28pt;
+}
+.txtp2 {
+    padding-right: 12%;
+}
+.txtp3 {
+    background-color: #11749e;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    font-weight: bold;
+}
+.txtp3 a {
+    color: white;
+    text-decoration: none;
+}
+.tp1 {
+    width: 72%;
+}
+.tp2 {
+    width: 79%;
+}
+.tp3 {
+    width: 85%;
+}
+.section6 {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 12%;
+    text-align: center;
+    background-color: white;
+}
+.letter {
+    height: 180px;
+    line-height: 180px;
+    background: url(../image/T1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+}
+.sc6p {
+    color: #222222;
+    font-size: 20px;
+    margin: 5%;
+}
+.sc6img {
+      width: 23%;
+  height: 370px;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 0;
+  position: relative;
+/*
+    width: 270px;
+    height: 370px;
+    float: left;
+    margin-left: 11px;
+    margin-right: 11px;
+    padding: 0;
+    position: relative;
+*/
+}
+.s6im1 {
+    background-image: url(../image/sc6.1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.s6im2 {
+    background-image: url(../image/sc6.2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.s6im3 {
+    background-image: url(../image/sc6.3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.s6im4 {
+    background-image: url(../image/sc6.4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.sc6p1 {
+     width: 180px;
+  color: #11749e;
+  padding: 10px;
+  padding-bottom: 0;
+  background-color: white;
+  box-sizing: border-box;
+  text-align: center;
+  bottom: -15px;
+  margin: 0;
+  left: 50%;
+  margin-left: -90px;
+  position: absolute;
+  font-size: 20px;
+}
+.sc6p1 span {
+    color: black;
+    font-size: 16px;
+}
+.section7 {
+    width: 100%;
+    background: url(../image/sc7.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+.sc7p1 {
+    height: 180px;
+    text-align: center;
+    line-height: 180px;
+    background: url(../image/C.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.in1 {
+    background: none;
+    border: 1px solid white;
+    height: 40px;
+    float: left;
+    width: 30%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    padding-left: 20px;
+}
+.in2 {
+    width: 95.6%;
+    height: 150px;
+    margin-left: 1.5%;
+    margin-top: 4%;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+}
+.batton{
+    width: 23%;
+    font-size: 22px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #11749e;
+    color: white;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.batton a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #222222;
+    color: white;
+}
+.left{
+    width: 280px;
+    line-height: 100px;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+    float: left;
+}
+
+footer img{
+    float: right;
+    margin-top: 3%;
+   
+}
+
+/*for parallax*/
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+/*end parallax*/
+
+
+@media only screen and (max-width:900px){
+    
+    .header{
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+    }
+    .section2{
+        width: 100%;
+    }
+    .section3{
+        width: 100%;
+    }
+    .section4{
+        width: 100%;
+    }
+    .section5{
+        width: 100%;
+    }
+    .section6{
+        width: 100%;
+    }
+    .section7{
+        width: 100%;
+    }
+    .ifr{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:600px){
+    .text{font-size: 30px;}
+    .h2{letter-spacing: 3px;}
+    .sc6img{width: 50%;margin: 0;margin-bottom: 20px;}
+    .sc7p1{ font-size: 18px;}
+    .block{width: 50%;margin: 0;padding: 0;margin-top: 20px;padding: 1%;}
+}
